@@ -58,14 +58,22 @@ Document.propTypes = {
 
 export default (context) => {
   const colorList = {
-    Haus: '#F3F4F4',
-    Night: '#333',
-    Sur: '#96DBE4',
-    'Sur Dark': '#24828F',
-    Peach: '#EFADA0',
-    'Peach Dark': '#E37059',
-    Pear: '#93DAAB',
-    'Pear Dark': '#2E854B',
+    Blue: '#3575D3',
+    'Dark Blue': '#154EA3',
+    Teal: '#1BB0DD',
+    Curious: '#3B8EC3',
+    Green: '#00C11A',
+    Red: '#F72F26',
+    Orange: '#F89C24',
+    Magenta: '#E620B1',
+    Black: '#344154',
+    Steel: '#576373',
+    Slate: '#758397',
+    Silver: '#9DAFBD',
+    'Water': '#BFCFDB',
+    'Dark Smoke': '#D7DBE0',
+    'Dark Snow': '#EDF4F9',
+    Snow: '#F1F5F7',
   };
 
   render(<Document colors={colorList} />, context.document.currentPage());
